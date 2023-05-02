@@ -1,3 +1,13 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/wH3jFylN)
-# hw4-using-react
-This is the starter code of [2023-Programming User Interface Homework](https://hackmd.io/@akairisu/ByGFeGdZh)
+## deploy 網站連結
+https://ubiquitous-conkies-5c4497.netlify.app/
+
+## 設計行為描述與理由
+在進行設計時，便先對於可以拆解的部分進行思考，主要分成三種元件 ：
+- shared: 被所有頁面共享的部分，如：header, footer, ...
+- page: 不同的分頁，如：主頁、商品頁面
+- component: 可以被重複利用的元件，如：商品卡、購物車物品
+
+## 討論作業四與作業一的不同
+不同的地方我認為在於模組化，讓我們可以盡可能的重複使用元件，以減少 Boilerplate code
+在寫沒有框架的 js 時，整體會變得冗長並且難以理解，將其元件化後，除了易讀性外，也可以在面對較大規模的應用時，
+能夠有比較完善的工作分配以及合作模式，以達到更有效率的開發。
